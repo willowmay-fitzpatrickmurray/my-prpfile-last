@@ -1,0 +1,200 @@
+/* Global styles */
+body {
+    font-family: 'Urbanist', sans-serif; /* Changed back to previous font */
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    color: #800080; /* Electric Purple */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #800080; /* Electric Purple */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 100px;
+  }
+  
+  .logo-container h1 {
+    font-family: 'Monoton', cursive;
+    margin-left: 10px;
+  }
+  
+  .menu-container {
+    display: flex;
+  }
+  
+  .menu-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-btn {
+    background-color: transparent;
+    border: none;
+    color: #800080; /* Electric Purple */
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Gallery styles */
+  .gallery-section {
+    background-color: #fff;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #800080; /* Electric Purple */
+  }
+  
+  .gallery-item {
+    width: 24%;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container p {
+    color: #800080; /* Electric Purple */
+  }
+  
+  .cta-btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn-container h2 {
+    color: #800080; /* Electric Purple */
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #800080; /* Electric Purple */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #800080; /* Electric Purple */
+  }
+  
+  .cta-btn:hover {
+    background-color: #800080; /* Electric Purple */
+    color: #fff;
+  }
+  
+  /* Section styles */
+  .section {
+    background-color: #fff;
+    color: #800080; /* Electric Purple */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px dotted #800080; /* Electric Purple dotted line */
+  }
+  
+  .section h2 {
+    color: #800080; /* Electric Purple */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #fff;
+    color: #800080; /* Electric Purple */
+    padding: 20px;
+    border-top: 2px solid #800080; /* Electric Purple */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left, .footer-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-btn {
+    background-color: transparent;
+    border: none;
+    color: #800080; /* Electric Purple */
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .footer-btn:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-right img {
+    width: 30px;
+    margin-left: 10px;
+  }
+  
+  /* Form styles */
+  .form-instruction {
+    text-align: center;
+  }
+  
+  .disco-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-item {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-item label {
+    display: block;
+    color: #800080; /* Electric Purple */
+    margin-bottom: 5px;
+  }
+  
+  .form-item input,
+  .form-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #800080; /* Electric Purple */
+    border-radius: 20px;
+  }
+  
+  .submit-btn {
+    background-color: #800080; /* Electric Purple */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4b0082; /* Indigo */
+  }
+  
